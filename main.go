@@ -1,7 +1,11 @@
 package main
 
-import "parte9/slices"
+import (
+	"fmt"
+	"parte9/slices"
+)
 
 func main() {
+	fmt.Println("Hola devs")
 	slices.Res(4, 5)
 }
